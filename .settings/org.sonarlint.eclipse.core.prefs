@@ -1,0 +1,4 @@
+autoEnabled=false
+eclipse.preferences.version=1
+extraProperties=
+fileExclusions=FILE\:src/main/java/com/medplus/SpringBootExample.java\r\nFILE\:src/main/java/com/medplus/HelloTag.java\r\nFILE\:src/main/java/com/medplus/SampleController.java

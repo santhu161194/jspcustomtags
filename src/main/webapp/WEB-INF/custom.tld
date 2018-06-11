@@ -1,0 +1,51 @@
+<taglib>
+   <tlib-version>1.0</tlib-version>
+   <jsp-version>2.0</jsp-version>
+   <short-name>Example TLD</short-name>
+  
+  <tag>
+      <name>meplusimg</name>
+      <tag-class>com.medplus.CustomImgTag</tag-class>
+      <body-content>scriptless</body-content>
+      <dynamic-attributes>true</dynamic-attributes>
+   </tag>
+
+	<tag-file>
+	<name>demo</name>
+	<path>/WEB-INF/tags/demo.tag</path>
+	<dynamic-attributes>true</dynamic-attributes>
+	</tag-file>   
+  
+   <tag>
+      <name>upper</name>
+      <tag-class>com.medplus.SimpleTag</tag-class>
+      <body-content>scriptless</body-content>
+      
+      
+      <attribute>
+         <name>text</name>
+      </attribute>
+   </tag>
+   
+   <tag>
+      <name>replace</name>
+      <tag-class>com.medplus.ReplaceBody</tag-class>
+      <body-content>scriptless</body-content>
+   </tag>
+   <tag> 
+    
+    <name>power</name>  
+    <tag-class>com.medplus.HelloTag</tag-class>  
+      
+    <attribute>  
+    <name>number</name>  
+    <required>true</required>  
+    </attribute>  
+      
+    <attribute>  
+    <name>power</name>  
+    <required>true</required>  
+    </attribute>  
+    
+  </tag>  
+</taglib>
